@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@source "../../../../packages/ui/src/**/*.{js,ts,jsx,tsx}"; /* Add This line */
+
+@custom-variant dark (&:is(.dark *));
+:root {
+}
+
+@theme {
+}
+
+@layer base {
+}
